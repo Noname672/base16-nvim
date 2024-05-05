@@ -261,7 +261,7 @@ function M.setup(colors, config)
     hi.SpellRare                          = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0E, ctermfg = nil, ctermbg = nil }
 
     hi.DiagnosticError                    = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
-    hi.DiagnosticWarn                     = { guifg = M.colors.base0E, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0E, ctermbg = nil }
+    hi.DiagnosticWarn                     = { guifg = M.colors.base0A, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0E, ctermbg = nil }
     hi.DiagnosticInfo                     = { guifg = M.colors.base0D, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0D, ctermbg = nil }
     hi.DiagnosticHint                     = { guifg = M.colors.base0C, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0C, ctermbg = nil }
     hi.DiagnosticUnderlineError           = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base08, ctermfg = nil, ctermbg = nil }
@@ -294,7 +294,7 @@ function M.setup(colors, config)
     hi.TSConstMacro                       = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
     hi.TSError                            = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
     hi.TSException                        = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
-    hi.TSField                            = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSField                            = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
     hi.TSFloat                            = { guifg = M.colors.base09, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm09, ctermbg = nil }
     hi.TSFunction                         = { guifg = M.colors.base0D, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0D, ctermbg = nil }
     hi.TSFuncBuiltin                      = { guifg = M.colors.base0D, guibg = nil, gui = 'italic', guisp = nil, ctermfg = M.colors.cterm0D, ctermbg = nil }
@@ -308,12 +308,12 @@ function M.setup(colors, config)
     hi.TSNamespace                        = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
     hi.TSNone                             = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
     hi.TSNumber                           = { guifg = M.colors.base09, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm09, ctermbg = nil }
-    hi.TSOperator                         = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
-    hi.TSParameter                        = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
-    hi.TSParameterReference               = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
-    hi.TSProperty                         = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
-    hi.TSPunctDelimiter                   = { guifg = M.colors.base0F, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0F, ctermbg = nil }
-    hi.TSPunctBracket                     = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSOperator                         = { guifg = M.colors.base0D, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSParameter                        = { guifg = M.colors.base0C, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSParameterReference               = { guifg = M.colors.base0C, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSProperty                         = { guifg = M.colors.base07, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
+    hi.TSPunctDelimiter                   = { guifg = M.colors.base04, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0F, ctermbg = nil }
+    hi.TSPunctBracket                     = { guifg = M.colors.base04, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm05, ctermbg = nil }
     hi.TSPunctSpecial                     = { guifg = M.colors.base0F, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0F, ctermbg = nil }
     hi.TSRepeat                           = { guifg = M.colors.base0E, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0E, ctermbg = nil }
     hi.TSString                           = { guifg = M.colors.base0B, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0B, ctermbg = nil }
@@ -332,7 +332,7 @@ function M.setup(colors, config)
     hi.TSURI                              = { guifg = M.colors.base09, guibg = nil, gui = 'underline', guisp = nil, ctermfg = M.colors.cterm09, ctermbg = nil }
     hi.TSType                             = { guifg = M.colors.base0A, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm0A, ctermbg = nil }
     hi.TSTypeBuiltin                      = { guifg = M.colors.base0A, guibg = nil, gui = 'italic', guisp = nil, ctermfg = M.colors.cterm0A, ctermbg = nil }
-    hi.TSVariable                         = { guifg = M.colors.base08, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
+    hi.TSVariable                         = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
     hi.TSVariableBuiltin                  = { guifg = M.colors.base08, guibg = nil, gui = 'italic', guisp = nil, ctermfg = M.colors.cterm08, ctermbg = nil }
 
     hi.TSDefinition                       = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04, ctermfg = nil, ctermbg = nil }
